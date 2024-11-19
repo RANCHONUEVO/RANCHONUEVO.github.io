@@ -1,0 +1,72 @@
+/* Resetear márgenes y bordes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del banner */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo del menú de navegación */
+.navbar {
+    background-color: #910909;
+;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #cf2e2e;
+;
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Estilo para el pie de página */
+footer {
+            text-align: center;
+            background-color: #740606;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+}
+
